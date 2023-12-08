@@ -1,0 +1,33 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ @font-face {font-family:"averox";src:url("./font/averox.eot") format("eot"),url("./font/averox.woff") format("woff"),url("averox.ttf") format("truetype"),url("./font/averox.svg#averox") format("svg");font-weight:normal;font-style:normal;}
+
+.neon-text {
+    font-size: 60px;
+    color: #ff0077;
+    text-shadow: 
+    0 0 10px #646cff, 
+    0 0 20px #649bff, 
+    0 0 30px #64aaff, 
+    0 0 40px #64b8ff, 
+    0 0 70px #64c7ff, 
+    0 0 80px #64d5ff, 
+    0 0 100px #64e4ff, 
+    0 0 150px #64f2ff;
+      animation: flicker 5s infinite alternate;
+  }
+  
+  @keyframes flicker {
+    0%, 100% {
+        text-shadow: 
+        0 0 10px #646cff, 
+        0 0 20px #649bff, 
+        0 0 30px #64aaff, 
+        0 0 40px #64b8ff, 
+        0 0 70px #64c7ff, 
+        0 0 80px #64d5ff, 
+        0 0 100px #64e4ff, 
+        0 0 150px #64f2ff;
+          }
+    25%, 75% {
+      text-shadow: none;
+    }
+  }
